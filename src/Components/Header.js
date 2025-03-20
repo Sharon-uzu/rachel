@@ -44,10 +44,10 @@ const Header = () => {
                 </div>
 
                 <ul  className={click ? 'active' : 'menu'}>
-                    <li><a href="#contacts">Contact</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#aboutme">About</a></li>
-                    <li><Link to="/project">Project</Link></li>
+                    <li><a href="#contacts" onClick={closeMenuBar}>Contact</a></li>
+                    <li><a href="#services" onClick={closeMenuBar}>Services</a></li>
+                    <li><a href="#aboutme" onClick={closeMenuBar}>About</a></li>
+                    <li><Link to="/project" onClick={closeMenuBar}>Project</Link></li>
                 </ul>
             </nav>
         </header>

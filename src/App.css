@@ -2,13 +2,15 @@
   padding: 0;
   margin: 0;
 }
-
+.home{
+  padding-top:2vh ;
+  background-color: #101010;
+}
 header{
   width: 100%;
-  margin-top: 2vh;
   height:10vh;
   position: relative;
-  background-color: #1E1E1E;
+  background-color: #232323;
   z-index: 10;
 }
 header nav{
@@ -50,6 +52,7 @@ header nav ul li a{
   width: 10%;
 }
 
+
 .hero{
   width: 85%;
   margin: auto;
@@ -57,6 +60,7 @@ header nav ul li a{
   justify-content: space-between;
   align-items: center;
   padding: 50px 0 15px 0;
+  
 }
 
 .hero .h-txt{
@@ -76,7 +80,7 @@ header nav ul li a{
   margin-bottom: 17px;
   font-size: 58px;
   font-weight: 700;
-  color: #333333;
+  color: #fff;
   line-height: 73px;
 }
 
@@ -84,7 +88,7 @@ header nav ul li a{
   font-size: 19px;
   font-weight: 400;
   line-height: 31px;
-  color: #171717;
+  color: #fff;
   margin-bottom: 38px;
 }
 
@@ -190,95 +194,76 @@ header nav ul li a{
 .why{
   width: 100%;
   position: relative;
-}
-
-.why .abs-top{
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  width: 40%;
+  padding: 30px 0;
 }
 
 .why .hire{
   width: 85%;
   margin: auto;
-  padding: 40px;
+  padding: 10px 0;
   z-index: 4;
   position: relative;
 }
 
 .why .hire h2{
-  font-size: 43px;
+  font-size: 33px;
   font-weight: 500;
   line-height: 48px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   color: #fff;
 }
 
-.why .hire p{
-  width: 38%;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 27.28px;
-}
-
-.why .hire .abs-imgs{
-  position: relative;
-  margin-top: 40px;
-  height: 77vh;
-}
-
-.why .hire .abs-imgs .a-i-1{
-  width: 60%;
-  height: 90%;
-  bottom: 90px;
-  position: absolute;
-  z-index: 1;
-  right: 0;
-}
-
-.why .hire .abs-imgs .a-i-2{
-  width: 45%;
-  height: 70%;
-  right: 31%;
-  bottom: 90px;
-  position: absolute;
-  z-index: 2;
-}
-
-.why .hire .abs-imgs .a-i-3{
-  width: 38%;
-  height: 65%;
-  left: 5%;
-  bottom: 0;
-  position: absolute;
-  z-index: 3;
-}
-
-.why .hire .abs-imgs .exp{
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  height: 90px;
-  z-index: 4;
-  background-color: #38819E;
-  color: #fff;
-  padding: 0 30px;
+.why .hire .hire-c{
+  margin-top: 55px;
   display: flex;
+  justify-content: space-between;
+}
+
+.why .hire .hire-c .hire1{
+  width: 32%;
+  background-color: #363636;
+  padding: 20px 0;
+  border-radius: 3px;
+}
+
+.why .hire .hire-c .hire1 .hire1-c{
+  width: 92%;
+  margin: auto;
+  color: #fff;
+}
+
+.why .hire .hire-c .hire1 .hire1-c h3{
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.why .hire .hire-c .hire1 .hire1-c p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.why .more-info{
+  width: 100%;
+  padding: 25px 0;
+  margin-top: 75px;
+  background: linear-gradient(90deg, #38819E 0%, #142E38 100%);
+
+}
+
+.why .more-info .m-c{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
-.why .hire .abs-imgs .exp div{
-  margin: 0 11px;
-}
-.why .hire .abs-imgs .exp div h6{
-  font-size: 20px;
-  font-weight: 400;
-}
-.why .hire .abs-imgs .exp div h3{
-  font-size: 26px;
+.why .more-info .m-c h4{
+  font-size: 24px;
   font-weight: 500;
+  color: #fff;
 }
 
 .projects{
@@ -397,6 +382,7 @@ header nav ul li a{
   background-color: #fff;
   border-radius: 6px;
   padding: 7px 10px;
+  cursor: pointer;
 }
 
 .projects .proj .second{
@@ -444,15 +430,15 @@ header nav ul li a{
   font-weight: 600;
   line-height: 48px;
   margin-bottom: 13px;
+  color: #fff;
 }
-.testimonial h2 span{
-  color: #38819E;
-}
+
 .testimonial p{
   width: 40%;
   font-size: 20px;
   font-weight: 400;
   line-height: 27.28px;
+  color: #fff;
 }
 
 .testimonial .tests{
@@ -482,9 +468,9 @@ header nav ul li a{
 .testimonial .tests .test1 .test1-c .t-first{
   display: flex;
   justify-content: space-between;
+  align-items: start;
 }
 .testimonial .tests .test1 .test1-c .t-first .t-left{
-  width:50% ;
   margin-bottom: 20px;
 }
 
@@ -530,7 +516,8 @@ header nav ul li a{
   font-size: 18px;
 }
 .testimonial .tests .test1 .test1-c .t-first img{
-  width: 18%;
+  width: 30px;
+  object-fit: contain;
 }
 
 .testimonial .tests .test1 .test1-c p{
@@ -654,7 +641,7 @@ footer .foot-c .f-l h4{
 
 
 footer .foot-c .f-l p{
-  font-size: 17px;
+  font-size: 16px;
   margin-bottom: 10px;
   font-weight: 400;
 }
@@ -680,9 +667,10 @@ footer .foot-c .f-r h2{
 }
 
 footer .foot-c .f-r p{
-  font-size: 18px;
-  line-height: 27px;
-  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 29px;
+  width: 85%;
+  margin-bottom: 25px;
 }
 footer .foot-c .f-r .f-icons{
   display: flex;
@@ -691,19 +679,23 @@ footer .foot-c .f-r .f-icons{
 footer .foot-c .f-r .f-icons a{
   color: #fff;
   margin-right: 7px;
-  font-size: 24px;
+  font-size: 30px;
 }
 
-
+.header2{
+  background-color: #101010;
+}
 .all-projects{
-  background: #FAFAFA;
+  background: #232323;
+  margin: 0;
 
 }
 .all-projects .top-txt h2{
-  color: #171717;
+  color: #fff;
 }
 .all-projects .top-txt p{
   color: #171717;
+  color: #fff;
 }
 
 .all-projects .proj .first{
@@ -738,9 +730,7 @@ footer .foot-c .f-r .f-icons a{
     font-size: 40px;
     line-height: unset;
   }
-  .why .hire p{
-    width: 70%;
-  }
+ 
 }
 
 @media screen and (max-width:900px){
@@ -754,9 +744,7 @@ footer .foot-c .f-r .f-icons a{
   .hero .h-img{
     width: 35%;
   }
-  .why .abs-top{
-    width: 60%;
-  }
+  
   .projects .proj .first .p-cards .cont{
     flex-direction: column;
     align-items: start;
@@ -796,35 +784,19 @@ footer .foot-c .f-r .f-icons a{
   .ab-bg{
     width: 50%;
   }
+  .why .hire .hire-c{
+    flex-wrap: wrap;
+  }
+  .why .hire .hire-c .hire1{
+    width: 48.5%;
+    margin-bottom: 15px;
+  }
 }
 @media screen and (max-width:700px){
   header nav ul{
     width: 65%;
   }
-  .why .hire .abs-imgs{
-    height: auto;
-  }
-  .why .hire .abs-imgs .a-i-1{
-    all: unset;
-    position: relative;
-    width: 100%;
-    margin-bottom: 15px;
-  }
-  .why .hire .abs-imgs .a-i-2{
-    all: unset;
-    position: relative;
-    width: 100%;
-    margin-bottom: 15px;
-  }
 
-  .why .hire .abs-imgs .a-i-3{
-    all: unset;
-    position: relative;
-    width: 100%;
-  }
-  .why .hire .abs-imgs .exp{
-    position: relative;
-  }
   .projects .proj .first .p-cards{
     width: 48%;
   }
@@ -840,9 +812,6 @@ footer .foot-c .f-r .f-icons a{
   footer .foot-c .f-r{
     width: 55%;
   }
-  .why .hire .abs-imgs .exp div h3{
-    font-size: 18px;
-  }
 
   .all-projects .proj .first .pp-f{
     width: 100%;
@@ -851,10 +820,16 @@ footer .foot-c .f-r .f-icons a{
   .all-projects .proj .first .pp-f .p-cards{
     width: 100%;
   }
+  .why .more-info .m-c{
+    width: 90%;
+  }
 
 }
 
 @media screen and (max-width:600px){
+  .hero .h-txt h2{
+    font-size: 38px;
+  }
   .service .serv .servv .serv-c p{
     width: 100%;
   }
@@ -887,12 +862,7 @@ footer .foot-c .f-r .f-icons a{
   .projects .top-txt p{
     width: 100%;
   }
-  .why .hire p{
-    width: 100%;
-  }
-  .why .abs-top{
-    width: 80%;
-  }
+ 
   .why .hire h2{
     font-size: 30px;
   }
@@ -901,6 +871,9 @@ footer .foot-c .f-r .f-icons a{
   }
   .testimonial p{
     width: 100%;
+  }
+  .why .more-info .m-c h4{
+    font-size: 19px;
   }
 }
 
@@ -949,6 +922,16 @@ footer .foot-c .f-r .f-icons a{
   .cover.active{
     display: none;
   }
+  .why .hire .hire-c .hire1{
+    width: 32%;
+    background-color: #363636;
+    padding: 20px 0;
+    border-radius: 3px;
+  }
+  .why .hire .hire-c .hire1{
+    width: 100%;
+    
+  }
 
   .contact{
     width: 85%;
@@ -960,7 +943,17 @@ footer .foot-c .f-r .f-icons a{
     font-size: 32px;
   }
   .testimonial h2{
-    font-size: 30px;
+    font-size: 26px;
   }
 }
 
+@media screen and (max-width:400px){
+  .why .more-info .m-c{
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .why .more-info .m-c .m1{
+    margin: 12px 0;
+  }
+}
