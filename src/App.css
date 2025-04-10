@@ -23,7 +23,7 @@ header nav{
 }
 
 header nav ul{
-  width: 50%;
+  width: 37%;
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -209,6 +209,13 @@ header nav ul li a{
   font-size: 33px;
   font-weight: 500;
   line-height: 48px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.why .hire p{
+  font-size: 18px;
+  font-weight: 500;
   margin-bottom: 25px;
   color: #fff;
 }
@@ -220,7 +227,7 @@ header nav ul li a{
 }
 
 .why .hire .hire-c .hire1{
-  width: 32%;
+  width: 24%;
   background-color: #363636;
   padding: 20px 0;
   border-radius: 3px;
@@ -253,7 +260,7 @@ header nav ul li a{
 }
 
 .why .more-info .m-c{
-  width: 80%;
+  width: 65%;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -307,7 +314,7 @@ header nav ul li a{
 }
 
 .projects .proj .first{
-  width: 69%;
+  width: 72%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -341,7 +348,7 @@ header nav ul li a{
 }
 
 .projects .proj .p-f .p-cards img{
-  height: 320px;
+  height: 290px;
   object-fit: cover;
 }
 
@@ -386,7 +393,7 @@ header nav ul li a{
 }
 
 .projects .proj .second{
-  width: 30%;
+  width: 27%;
 }
 
 .projects .proj .second .p-cards{
@@ -394,7 +401,7 @@ header nav ul li a{
 }
 
 .projects .proj .second .p-cards img{
-  height: 780px;
+  height: 800px;
   object-fit: cover;
 }
 
@@ -413,6 +420,19 @@ header nav ul li a{
   border: none;
   border-radius: 8px;
   padding: 10px 28px;
+}
+
+.projects ul{
+  width: 80%;
+  margin: auto;
+  margin-top: 12px;
+  text-align: start;
+  color: #1e1e1e;
+}
+
+.projects ul li{
+  font-size: 16px;
+  margin-bottom: 6px;
 }
 
 .testimonial{
@@ -753,6 +773,11 @@ footer .foot-c .f-r .f-icons a{
     width: 100%;
     margin-bottom: 14px;
   }
+
+header nav ul{
+  width: 42%;
+  
+}
   
 }
 
@@ -794,7 +819,7 @@ footer .foot-c .f-r .f-icons a{
 }
 @media screen and (max-width:700px){
   header nav ul{
-    width: 65%;
+    width: 60%;
   }
 
   .projects .proj .first .p-cards{

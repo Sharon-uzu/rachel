@@ -7,16 +7,21 @@ import Footer from '../Components/Footer';
 
 // Project Data Array
 const projects = [
-    { id: 1, category: "Web Design", title: "Techpass Africa Website Page Design", image: require('../Assets/Techpass 1.png'), link: "#" },
-    { id: 2, category: "Web Design", title: "Maison Wellness Website Page Design", image: require('../Assets/maison 1.png'), link: "#" },
-    { id: 3, category: "App Design", title: "Bloompay App Design", image: require('../Assets/Bloom 1.png'), link: "#" },
-    { id: 4, category: "Landing Page Design", title: "Furniture Store Landing Page Design", image: require('../Assets/Group 74 2.png'), link: "#" },
-    { id: 5, category: "App Design", title: "Agropaddy App Design", image: require('../Assets/agroo 1.png'), link: "", status: "In Progress" },
-    { id: 6, category: "Web Design", title: "Food Case Study Website Design", image: require('../Assets/foodcasestudy 1.png'), link: "#" },
-    { id: 7, category: "Web Design", title: "Python Website Design", image: require('../Assets/pythons 1.png'), link: "#" },
-    { id: 8, category: "Web Design", title: "AgroVest Web Design", image: require('../Assets/agro 1.png'), link: "#" },
-    { id: 9, category: "Web Design", title: "Dokita Website Design", image: require('../Assets/dokita 2.png'), link: "#" },
-    { id: 10, category: "App Design", title: "Expense Tracker Design", image: require('../Assets/Group 1000002782.png'), link: "#" },
+    { id: 1, category: "Web Design", title: "Techpass Africa Website Design", image: require('../Assets/Techpass 1.png'), link: "https://www.techpass.africa/", btn:'View Project' },
+    { id: 2, category: "Web Design", title: "Maison Wellness Website Design", image: require('../Assets/maison 1.png'), link: "https://maisomwellness.netlify.app/", btn:'View Project' },
+    { id: 2, category: "Web Design", title: "Diaspora Website Design", image: require('../Assets/diaspora.png'), link: "https://adpl-site.netlify.app/", btn:'View Project' },
+    { id: 2, category: "Web Design", title: "Nairaland Redesign Website Design", image: require('../Assets/naira.png'), link: "https://www.behance.net/gallery/217924325/Narialand-Redesign", btn:'View Project' },
+    { id: 3, category: "App Design", title: "Bloompay App Design", image: require('../Assets/Bloom 1.png'), link: "https://www.mybloompay.com/", btn:'View Project' },
+    { id: 4, category: "Landing Page Design", title: "Furniture Store Landing Page Design", image: require('../Assets/Group 74 2.png'), link: "https://www.behance.net/gallery/213647143/FURNITURE-LANDING-PAGE", btn:'View Project' },
+    { id: 5, category: "App Design", title: "Agropaddy App Design", image: require('../Assets/agroo 1.png'), link: "https://www.agropaddy.com/?fbclid=IwY2xjawJJDY9leHRuA2FlbQIxMAABHT075hEtEJcJV38FqK9DeHjwm0wqVaDdG97Pi7ZYAv2WwcIsQmOswKQfoQ_aem_k2BjPe5u1d2Nx6qcSU1hag", btn:'View Project' },
+    { id: 6, category: "Web Design", title: "Food Case Study Website Design", image: require('../Assets/foodcasestudy 1.png'), link: "https://www.behance.net/gallery/207157781/FOOD-WEB-CASE-STUDY", btn:'View Project' },
+    { id: 7, category: "Web Design", title: "Python Website Design", image: require('../Assets/pythons 1.png'), link: "https://python-cave22.netlify.app/", btn:'View Project' },
+    { id: 8, category: "Web Design", title: "AgroVest Web Design", image: require('../Assets/agro 1.png'), link: "#", btn:'In Progress' },
+    { id: 9, category: "Web Design", title: "Dokita Website Design", image: require('../Assets/dokita 2.png'), link: "#", btn:'In Progress' },
+    { id: 10, category: "App Design", title: "Expense Tracker Design", image: require('../Assets/Group 1000002782.png'), link: "https://www.behance.net/gallery/198007693/Expense-Tracker", btn:'View Project' },
+    { id: 11, category: "Web Design", title: "Fruity", image: require('../Assets/fruit.png'), link: "https://www.behance.net/gallery/222871791/Juice-Store-Landing-Page", btn:'View Project' },
+    { id: 12, category: "Dashboard", title: "AI Curate", image: require('../Assets/ai.png'), link: "https://www.behance.net/gallery/213843247/Saas-platform", btn:'View Project' },
+
 ];
 
 const ProjectScreen = () => {
@@ -72,7 +77,7 @@ const ProjectScreen = () => {
                                                     whileHover={{ scale: 1.1 }}
                                                     whileTap={{ scale: 0.95 }}
                                                 >
-                                                    View Project
+                                                    {project.btn}
                                                 </motion.button>
                                             </motion.a>
                                         )}

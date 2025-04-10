@@ -38,8 +38,13 @@ const Projects = () => {
                             <h4>Web Design </h4>
                             <h3>Techpass Africa Website Page Design</h3>
                         </div>
-                        <a href=""><button>View Project</button></a>
+                        <a href="https://www.techpass.africa/"><button>View Project</button></a>
                     </div>
+                    <ul>
+                        <li>Problem: TechPass needed a unique and user-friendly website to showcase its services.</li>
+                        <li>Solution: Designed an intuitive layout with clear navigation and bold visuals tailored to the tech industry.</li>
+                        <li>Impact: Increased site traffic and user engagement.</li>
+                    </ul>
                 </motion.div>
 
                 {/* Zoom-in animation */}
@@ -56,8 +61,13 @@ const Projects = () => {
                             <h4>Web Design </h4>
                             <h3>Maison Wellness Website Page Design</h3>
                         </div>
-                        <a href=""><button>View Project</button></a>
+                        <a href="https://maisomwellness.netlify.app/"><button>View Project</button></a>
                     </div>
+                    <ul>
+                        <li>Problem: Crafting a wellness platform with booking and payment integration.</li>
+                        <li>Solution: Created a sleek, responsive website with user-friendly service navigation.</li>
+                        <li>Impact: Increased service bookings by 40%.</li>
+                    </ul>
                 </motion.div>
 
                 {/* Rotate-in animation */}
@@ -74,8 +84,15 @@ const Projects = () => {
                             <h4>App Design </h4>
                             <h3>Bloompay App Design</h3>
                         </div>
-                        <a href=""><button>View Project</button></a>
+                        <a href="https://www.mybloompay.com/"><button>View Project</button></a>
                     </div>
+
+                    <ul>
+                        <li>Problem: Designing a seamless payment system for diverse users.</li>
+                        <li>Solution: Delivered an interactive dashboard and easy-to-use mobile app for smooth transactions.</li>
+                        <li>Impact: Reduced customer complaints by 30%.</li>
+                    </ul>
+
                 </motion.div>
 
                 {/* Fade-in from left animation */}
@@ -92,8 +109,13 @@ const Projects = () => {
                             <h4>Landing Page Design </h4>
                             <h3>Furniture Store Landing Page Design</h3>
                         </div>
-                        <a href=""><button>View Project</button></a>
+                        <a href="https://www.behance.net/gallery/213647143/FURNITURE-LANDING-PAGE"><button>View Project</button></a>
                     </div>
+                    <ul>
+                        <li>Problem: Designing a seamless payment system for diverse users.</li>
+                        <li>Solution: Delivered an interactive dashboard and easy-to-use mobile app for smooth transactions.</li>
+                        <li>Impact: Reduced customer complaints by 30%.</li>
+                    </ul>
                 </motion.div>
             </div>
 
@@ -112,9 +134,19 @@ const Projects = () => {
                             <h4>App Design</h4>
                             <h3>Agropaddy App Design</h3>
                         </div>
-                        <a href=""><button>View Project</button></a>
+                        <a href="https://www.agropaddy.com/?fbclid=IwY2xjawJJDY9leHRuA2FlbQIxMAABHT075hEtEJcJV38FqK9DeHjwm0wqVaDdG97Pi7ZYAv2WwcIsQmOswKQfoQ_aem_k2BjPe5u1d2Nx6qcSU1hag"><button>View Project</button></a>
                     </div>
+
+                    <ul>
+                    <li>Problem: Enhancing the experience for ordering and exploring food options.</li>
+                    <li>Solution: Developed a visually appealing and interactive app focusing on usability and customization.</li>
+                    <li>Impact: Improved average order completion rate by 20%.</li>
+                </ul>
+                
                 </motion.div>
+
+               
+                
             </div>
         </div>
 
@@ -126,6 +158,8 @@ const Projects = () => {
         >
             <Link to="/project"><button style={{cursor:'pointer'}}>See all projects</button></Link>
         </motion.div>
+
+        
     </div>
   )
 }

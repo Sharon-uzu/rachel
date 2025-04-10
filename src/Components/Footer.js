@@ -4,6 +4,8 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { CiInstagram } from "react-icons/ci";
 import { FaXTwitter } from "react-icons/fa6";
+import { FaBehance } from "react-icons/fa";
+
 
 const Footer = () => {
   return (
@@ -14,18 +16,21 @@ const Footer = () => {
                     <img src={logo} alt="" />
                     <h3>Racheal Obereniokuma</h3>
                     <h4>Product Designer</h4>
-                    <p>Email me at</p>
-                    <a href="mailto:rachyobereni@gmail.com">rachyobereni@gmail.com</a>
+                    <p>Email: <a href="mailto:rachyobereni@gmail.com">rachyobereni@gmail.com</a></p>
+                    
+                    <p>location: Port Harcourt</p>
+                    
                 </div>
 
                 <div className="f-r">
                     <h2>Lets Talk!</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna morbi massa dictum tristique convallis pretium eleifend habitant. Libero a arcu purus, elit, volutpat in nunc amet. Fermentum risus vel dolor id scelerisque senectus et, id nunc. Consectetur metus tristique ullamcorper semper purus massa eget urna.</p>
+                    <p>Let’s Connect & Collaborate! <br /> I’m always open to exciting projects and collaborations. Let’s create something impactful together.</p>
                     <div className="f-icons">
-                        <a href=""><FaLinkedinIn className="f-i"/></a>
-                        <a href=""><FaFacebookF className="f-i"/></a>
-                        <a href=""><CiInstagram className="f-i"/></a>
-                        <a href=""><FaXTwitter className="f-i"/></a>
+                        <a href="https://www.linkedin.com/in/racheal-obereniokuma-2a529b19b/"><FaLinkedinIn className="f-i"/></a>
+                        <a href="https://web.facebook.com/mhiz.racheal.735"><FaFacebookF className="f-i"/></a>
+                        <a href="https://x.com/_designer_ray?s=21&t=Ihnv_t0hm5RyM4UUZ-IokA"><FaXTwitter className="f-i"/></a>
+                        <a href="https://www.behance.net/rachyobereni"><FaBehance className="f-i"/></a>
+
                     </div>
                 </div>
             </div>
