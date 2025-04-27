@@ -14,7 +14,7 @@ const Service = () => {
             <div className="servv">
                 <div className="serv-c">
                     <h2>My <span>Services</span></h2>
-                    <p> I lead design projects at Harvoxx Tech Hub, where I strive to improve user engagement and satisfaction.</p>
+                    <p> I turn ideas into experiences and sketches into stories. Whether it's apps, websites, or brands — I craft designs that don’t just look good, but feel good also.</p>
 
                     <div className="services">
                         <div className="serv1">

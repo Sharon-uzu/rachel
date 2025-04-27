@@ -18,7 +18,7 @@ const Projects = () => {
             transition={{ duration: 0.8, ease: "easeOut" }}
         >
             <h2>My <span>Projects</span></h2>
-            <p> I lead design projects at Harvoxx Tech Hub, where I strive to improve user engagement and satisfaction.</p>
+            <p> Showcasing a selection of my best work</p>
         </motion.div>
 
         {/* Project Cards with Unique Animations */}

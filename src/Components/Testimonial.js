@@ -13,7 +13,7 @@ const Testimonial = () => {
     <div className='testimonial'>
         <div className="test-txt">
             <h2>What My <span>Clients</span> says</h2>
-            <p> I lead design projects at Harvoxx Tech Hub, where I strive to improve user engagement and satisfaction.</p>
+            <p> Hear from those who have worked with me and experienced the impact of my designs.</p>
 
         </div>
         

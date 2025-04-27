@@ -43,7 +43,7 @@ const ProjectScreen = () => {
             <div className='projects all-projects'>
                 <div className="top-txt">
                     <h2>My <span>Projects</span></h2>
-                    <p>I lead design projects at Harvoxx Tech Hub, where I strive to improve user engagement and satisfaction.</p>
+                    <p>Showcasing a selection of my best work</p>
                 </div>
 
                 <div className="proj">
